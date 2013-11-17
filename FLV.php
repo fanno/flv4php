@@ -911,7 +911,7 @@ class FLV {
 
 		if(!$supressGetId3) {
 //			$buffMetaData = $this->FileInfo;
-			$buffMetaData = $this->FileInfo['meta']['onMetaData'];
+			$buffMetaData = $this->FileInfo['flv']['meta']['onMetaData'];
 			$buffMetaData['flv'] = $this->FileInfo['flv'];
 			$buffMetaData['video'] = $this->FileInfo['video'];
 			$buffMetaData['audio'] = $this->FileInfo['audio'];

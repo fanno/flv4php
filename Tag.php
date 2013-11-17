@@ -30,6 +30,9 @@ define('FLV_TAG_TYPE_AUDIO', 8);
 define('FLV_TAG_TYPE_VIDEO', 9);
 define('FLV_TAG_TYPE_DATA', 18);
 
+/**
+ * Class FLV_Tag
+ */
 class FLV_Tag {
     var $TYPE_AUDIO = FLV_TAG_TYPE_AUDIO;
     var $TYPE_VIDEO = FLV_TAG_TYPE_VIDEO;
